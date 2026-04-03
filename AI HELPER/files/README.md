@@ -4,16 +4,12 @@ A full-stack personalized learning planner powered by Groq AI.
 
 ## Project Structure
 
-```
 learnforge/
-├── backend/
-│   └── main.py              # FastAPI backend
-├── frontend/
-│   └── index.html           # Single-page frontend
-├── requirements.txt
-├── run.sh                   # One-command setup & run
-└── README.md
-```
+├── api/
+│   └── index.py          ← your FastAPI app (Vercel serverless function)
+├── index.html            ← frontend (at root, NOT in /public/)
+├── vercel.json
+└── requirements.txt
 
 ## Tech Stack
 
