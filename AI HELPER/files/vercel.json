@@ -1,0 +1,12 @@
+{
+  "rewrites": [
+    {
+      "source": "/(register|login|generate-roadmap|my-plans|health|resources|progress|daily-progress)(.*)",
+      "destination": "/api/index"
+    },
+    {
+      "source": "/(.*)",
+      "destination": "/index.html"
+    }
+  ]
+}
